@@ -1,8 +1,8 @@
 import pandas as pd
 
 # paths
-input_csv = "/home/chri6578/Documents/aniq/DATA/METRLA/METRLA_fixed.csv"
-output_file = "/home/chri6578/Documents/aniq/FOGS/node2vec-master/graph/METRLA.edgelist"
+input_csv = "/home/chri6578/Documents/aniq/FOGS/data/PEMSBAY/PEMSBAY.csv"
+output_file = "/home/chri6578/Documents/aniq/FOGS/node2vec-master/graph/PEMSBAY.edgelist"
 
 df = pd.read_csv(input_csv)
 

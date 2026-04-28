@@ -13,7 +13,7 @@ from utils import *
 from model import STSGCN
 import ast
 
-DATASET = 'METRLA'  # PEMS03, PEMS04, PEMS07, or PEMS08
+DATASET = 'PEMSBAY'  # PEMS03, PEMS04, PEMS07, PEMS08, METRLA, PEMSBAY
 
 # config_file = './config/{}.conf'.format(DATASET)  # exists path error for debugging
 dirname, filename = os.path.split(os.path.abspath(__file__))
