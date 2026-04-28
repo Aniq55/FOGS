@@ -112,6 +112,8 @@ def main(args):
     G = node2vec_tra_reduce.TraGraph(nx_G, T, args.directed, args.p, args.q)
     G.preprocess_transition_probs()
     walks = G.simulate_walks(args.num_walks, args.walk_length)
+    print("Num walks:", len(walks))
+    print("First 5 walks:", walks[:5])
     learn_embeddings(walks)
 
 
